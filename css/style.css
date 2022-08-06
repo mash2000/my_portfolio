@@ -28,3 +28,63 @@ body {
 .nav-link.active {
   font-weight: 700;
 }
+
+.container {
+  max-width: 870px;
+  width: 100%;
+  margin: auto;
+}
+
+.header {
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+}
+
+.header-text {
+  margin-left: 27px;
+}
+
+.header-strong {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+}
+
+.header-primary {
+  color: #bf7506;
+}
+
+.social-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.social-link {
+  display: inline-block;
+  padding: 8px;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+}
+
+.cv-download {
+  padding: 7px 8px;
+  margin-left: 55px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211b12;
+  border-bottom: 2px solid #bf7506;
+}
+
+.cv-icon {
+  margin-right: 4px;
+}
