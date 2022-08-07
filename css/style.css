@@ -163,3 +163,67 @@ body {
   align-items: flex-start;
   justify-content: space-between;
 }
+
+.developer {
+  padding: 80px 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.developer-photo {
+  width: 360px;
+  height: 440px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.developer-about {
+  margin-left: 55px;
+}
+
+.developer-hello {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: -0.02em;
+  color: #211b12;
+}
+
+.developer-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+  color: #bf7506;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+
+.developer-text {
+  font-size: 16px;
+  line-height: 150%;
+  color: #211b12;
+}
+
+.motto {
+  font-size: 24px;
+  line-height: 150%;
+  color: #dd9c3c;
+  margin: 16px 0;
+}
+
+.developer-sign {
+  max-width: 200px;
+}
+
+.skills {
+  padding: 20px 0;
+}
+
+.skills-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  color: #211b12;
+}
