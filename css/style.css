@@ -300,6 +300,19 @@ body {
   cursor: pointer;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 16px;
+}
+
+.footer-text {
+  width: inherit;
+  text-align: center;
+}
+
 @media screen and (max-width: 1024px) {
   .container {
     max-width: 760px;
